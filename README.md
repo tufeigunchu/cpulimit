@@ -28,7 +28,7 @@ On Linux/OS X:
 On FreeBSD:
 
     $ gmake
-    # cp src/cpulimit /usr/bin
+    # cp src/cpulimit /usr/bina
 
 Run unit tests:
 
