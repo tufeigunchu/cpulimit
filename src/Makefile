@@ -1,7 +1,7 @@
 CC?=gcc
 CFLAGS?=-Wall -g -D_GNU_SOURCE
 TARGETS=cpulimit
-LIBS=list.o process_iterator.o process_group.o
+LIBS=list.o process_iterator.o process_group.o -lpthread
 
 UNAME := $(shell uname)
 
